@@ -16,6 +16,7 @@ The problem statement is to design the fare calculation engine for Metro Card.
 * Open terminal, run 'npm install'
 * For test, run 'npm test
 * For running the app, 'npm start'
+* To check the total metro fare, Go to 'http://localhost:3000/api/fare'
 
 
 ### General guidelines ###
