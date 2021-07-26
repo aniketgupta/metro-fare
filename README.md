@@ -25,4 +25,4 @@ The problem statement is to design the fare calculation engine for Metro Card.
 
 ### Who do I talk to? ###
 
-* aniket.gupta309@gmail@.com
+* aniket.gupta309@gmail.com
