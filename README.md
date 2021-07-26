@@ -1,2 +1,28 @@
-# metro-fare
-To make the fares easier to understand for the commuters, the city has been divided into zones.    Zone 1 is the central area and Zone 2 forms a concentric ring around Zone    1. Each metro station has been assigned to a zone. In the future, more zones will be added as the metro  expands.    The problem statement is to design the fare calculation engine for Metro Card.  Below are the definitions and fare rules.    Rules  Time of travel    The fare varies based on the time of the travel. There are two types of fares based on time of  travel:    ● Peak hours timings  ○ Monday - Friday  ■ 07:00 - 10:30, 17:00 - 20:00  ○ Saturday - Sunday  ■ 09:00 - 11:00, 18:00 - 22:00    ● Off-peak hours timings  ○ All hours except the above peak hours  ○ If travelling from any station outside Zone 1 to a station in Zone 1 on the below times  ■ Monday - Friday  ● 17:00 - 20:00  ■ Saturday - Sunday  ● 18:00 - 22:00    The below table shows the fare that commuters will have to pay for a single journey from station  A to station B. There is no concept of a round-trip journey.    Zones Peak hours Off-peak hours  1 - 1 30 25  1 - 2 or 2 - 1 35 30  2 - 2 25 20
+# Calculate Metro Fare #
+
+The problem statement is to design the fare calculation engine for Metro Card.
+
+### Prerequisites
+
+| Prerequisite                                | Version |
+| ------------------------------------------- | ------- |
+| [Node.js](http://nodejs.org)                | `~ ^14.17.3`  |
+| npm (comes with Node)                       | `~ ^6.14.13`  |
+| Mocha                                       | `~ ^9.0.3`    |
+
+### How do I get set up? ###
+
+* Clone the repo to your local machine.
+* Open terminal, run 'npm install'
+* For test, run 'npm test
+* For running the app, 'npm start'
+
+
+### General guidelines ###
+
+* Indent code with 2 spaces.
+* Code review is must
+
+### Who do I talk to? ###
+
+* aniket.gupta309@gmail@.com
